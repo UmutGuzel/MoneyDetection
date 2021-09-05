@@ -5,7 +5,7 @@ For beginners, the implementation can be helpful, but it is simple for other lev
 
 ## The purpose
 
-Purpose of this project is detect value of a money in a image, and put the value top left of the image.
+Purpose of this project is detect value of a money in an image, and put the value on top left of the image.
 
 ![10 TL image, and putted text that is "10 TL"](markdown_image/output.jpg "10 TL image, and putted text that is 10 TL")
 
@@ -14,7 +14,7 @@ Purpose of this project is detect value of a money in a image, and put the value
 
 ### Image spliting
 
-Main aim of this part of project is split a image of money different parts which are different size, and resize it with choosen values, and save it.
+Main aim of this part the project is spliting an image of money different parts which are different size, and resize it with choosen values, and save it.
 
 This approach maybe is not bad, but the code is not efficient.
 
@@ -53,7 +53,7 @@ After training, The code is able to use the `.pkl` file.
 It takes the model, and the image in given path. <br>
 It splits the image, but this spliting process making lesser parts than `Split.py`, because I want to it be faster. <br>
 It extracts feature. <br>
-It makes a prediction every splitted image and store in a list. <br>
-After that, It scan the list for checking which prediction there are more, and put the prediction in the image 
+It makes a prediction every splitted image and stores in a list. <br>
+After that, It scans the list to check which prediction there are more, and put the prediction in the image 
 
 ---
