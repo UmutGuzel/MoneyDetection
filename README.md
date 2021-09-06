@@ -37,7 +37,7 @@ After training process, I saved the model in `.pkl` file with `pickle`.
 knnTrain.py
 
 for every images
-    exctract features nad save to a list
+    exctract features and save to a list
 split the list to trainig, and test
 pass training to the classfier
 check score with test data
